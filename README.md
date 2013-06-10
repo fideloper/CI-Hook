@@ -1,5 +1,5 @@
 # CodeIgniter Hook Class
-This class gives CodeIgniter an implementation of the Observer pattern, with a little added PubSub flavor. CodeIngiter already has a basic system for this this, in the form of the core Hooks class. However, it does not expose the ability to add your own hooks nor is it namespaced. This library adds both of those abilities.
+This class gives CodeIgniter an implementation of the Observer pattern, with a little added PubSub flavor. CodeIgniter already has a basic system for this this, in the form of the core Hooks class. However, it does not expose the ability to add your own hooks nor is it namespaced. This library adds both of those abilities.
 
 **Naming Conventions**
 
@@ -58,7 +58,7 @@ Note that we can pass anything to the parameters - These will be used as default
 	));
 ```
 
-##Call a hook, so listening callbacks will fire
+## Fire a hook, so listening callbacks will be executed 
 Note that we can pass anything to the parameters - in this case, we're passing an array with data on a sent email
 
 ```php
